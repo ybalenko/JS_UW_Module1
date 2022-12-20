@@ -1,0 +1,17 @@
+.header {
+    color: indigo;
+}
+
+.main-page-btn {
+    background-color: orange;
+    border-color: orange;
+}
+
+.main-page-btn:hover {
+    background-color: orange;
+    border-color: orange;
+}
+
+.movie-result {
+    text-decoration: underline;
+}

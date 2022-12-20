@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Book</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-12">
+                <h1>Show me a random book</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form id="random-book-form">
+                    <div class="form-group mb-2">
+                        <input id="get-book-submit" class="btn btn-primary" type="submit" value="Show me!" />
+                    </div>
+                </form>
+                <div class="form-group mb-2">
+                    <input id="back" class="btn btn-primary" type="submit" value="Back" />
+                </div>
+            </div>
+            <div class="col-md-7 offset-md-1" id="books-container">
+                Your random book is:
+            </div>
+        </div>
+    </div>
+
+    <script src="api-key.js"></script>
+    <script src="nyt-client.js"></script>
+    <script src="best-buddy-random-book.js"></script>
+
+
+</body>
+
+</html>
